@@ -1,0 +1,32 @@
+{
+  "name": "preact-radium",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server . ",
+    "dev:react": "webpack --mode development --config webpack.config.js --progress --colors --watch --react & npm run start",
+    "dev:preact": "webpack --mode development --config webpack.config.js --progress --colors --watch --preact & npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "http-server": "^0.11.1",
+    "preact": "^10.0.0-rc.3",
+    "radium": "^0.24.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "webpack": "^4.40.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "webpack-cli": "^3.3.9"
+  }
+}
