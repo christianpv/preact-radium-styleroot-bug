@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "babel": "^6.23.0",
-    "http-server": "^0.11.1",
+    "http-server": "^0.11.2",
     "preact": "^10.0.0-rc.3",
     "radium": "^0.24.1",
     "react": "^16.9.0",
